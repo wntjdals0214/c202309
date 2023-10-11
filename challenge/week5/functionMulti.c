@@ -2,11 +2,11 @@
 
 long multif(long value);
 
-void main()
+int main()
 {
-	printf("1부터 2까지의 곱은 %d\n", multif(2));
-	printf("1부터 3까지의 곱은 %d\n", multif(3));
-	printf("1부터 5까지의 곱은 %d\n", multif(5));
+	printf("1부터 2까지의 곱은 %ld\n", multif(2));
+	printf("1부터 3까지의 곱은 %ld\n", multif(3));
+	printf("1부터 5까지의 곱은 %ld\n", multif(5));
 }
 
 long multif(long value)
@@ -20,4 +20,6 @@ long multif(long value)
 		i = i + 1; //i를 1,2,3..으로 1씩 증가시킴
 	}
 	return multi; //multi의 값을 main으로 반환
+
+	return 0;
 }

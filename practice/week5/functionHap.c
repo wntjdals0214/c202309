@@ -2,7 +2,7 @@
 
 int hapf(int value);
 
-void main()
+int main()
 {
 	printf("1부터 10까지의 합은 %d\n", hapf(10));
 	printf("1부터 100까지의 합은 %d\n", hapf(100));
@@ -20,4 +20,6 @@ int hapf(int value)
 		i = i + 1; //i를 1,2,3..으로 1씩 증가시킴
 	}
 	return hap; //hap의 값을 main으로 반환
+
+	return 0;
 }
